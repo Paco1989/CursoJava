@@ -9,22 +9,6 @@ package javaapplication3;
  *
  * @author educacionit
  */
-public abstract class Vehiculos {
-
-   
-    String color;
-    double Velocidad;
-    int aceleracion;
-
-
-    private Propulsion propulsion;
-    public Vehiculos (Propulsion propulsion){
-        this.propulsion = propulsion;
-    }
-
-  
-  }
-  
+class Propulsion {
     
-    
-
+}

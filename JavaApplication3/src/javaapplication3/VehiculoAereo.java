@@ -12,6 +12,13 @@ package javaapplication3;
 public class VehiculoAereo extends Vehiculos{
     
     String tipoAereos;
+    int acelerar;
+    int despegar;
+    int aterrizar;        
+
+    public VehiculoAereo(Propulsion propulsion) {
+        super(propulsion);
+    }
 
     public String getTipoAereos() {
         return tipoAereos;
@@ -46,5 +53,8 @@ public class VehiculoAereo extends Vehiculos{
     }
     
     
+    
+    
+  
     
 }
